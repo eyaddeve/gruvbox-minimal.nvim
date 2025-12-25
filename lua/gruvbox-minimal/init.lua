@@ -3,6 +3,8 @@ local M = {}
 M.config = {
 	transparent = false,
 	italic_comments = false,
+	contrast = "low",
+	theme = "dark",
 }
 
 function M.setup(opts)
@@ -10,7 +12,7 @@ function M.setup(opts)
 end
 
 function M.load()
-	local palette = require("gruvbox-minimal.palette")
+	local palette = require("gruvbox-minimal.palette").get(M.config.contrast, M.config.theme)
 	local groups = require("gruvbox-minimal.groups").setup(palette, M.config)
 
 	for group, settings in pairs(groups) do
