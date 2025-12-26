@@ -13,10 +13,13 @@
 ## Preview
 
 <img height="450" src="./assets/screenshot_01.png"/></h1>
+<img height="450" src="./assets/screenshot_01_light.png"/></h1>
 
 <details><summary>More previews</summary>
 <img height="450" src="./assets/screenshot_02.png"/></h1>
+<img height="450" src="./assets/screenshot_02_light.png"/></h1>
 <img height="450" src="./assets/screenshot_03.png"/></h1>
+<img height="450" src="./assets/screenshot_03_light.png"/></h1>
 </details>
 
 ## Installation
