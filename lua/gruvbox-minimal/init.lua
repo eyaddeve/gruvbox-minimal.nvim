@@ -1,10 +1,11 @@
 local M = {}
 
 M.config = {
-	transparent = false,
-	italic_comments = false,
-	contrast = "low",
-	theme = "dark",
+    transparent = false,
+    italic_comments = false,
+    contrast = "low",
+    theme = "dark",
+    accent = "red",
 }
 
 function M.setup(opts)
