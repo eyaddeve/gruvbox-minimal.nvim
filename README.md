@@ -43,10 +43,10 @@
 MiniDeps.add({
     source = "dybdeskarphet/gruvbox-minimal.nvim"
 })
-MiniDeps.now({
+MiniDeps.now(function()
     -- Add the relevant configuration options if you want to
     vim.cmd.colorscheme("gruvbox-minimal")
-})
+end)
 ```
 
 </details>
