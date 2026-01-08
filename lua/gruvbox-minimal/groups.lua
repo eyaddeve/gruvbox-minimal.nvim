@@ -1,7 +1,7 @@
 local M = {}
 
 function M.setup(c, config)
-	local groups = {
+	local essential_groups = {
 		-- Essentials
 		Normal = { fg = c.base_15, bg = config.transparent and "none" or c.base_01 },
 		NormalNC = { link = "Normal" },
@@ -201,6 +201,45 @@ function M.setup(c, config)
 		RenderMarkdownChecked = { fg = c.green, bold = true },
 		RenderMarkdownBullet = { fg = c.yellow, bold = true },
 	}
+
+	groups = essential_groups
+
+	if config.semantic_highlights then
+		groups = vim.tbl_deep_extend("force", essential_groups, {
+			-- LSP Semantic Highlights
+			["@property.type.class"] = { link = "Type" },
+			["@lsp.type.comment"] = { link = "Comment" },
+			["@lsp.type.decorator"] = { link = "Macro" },
+			["@lsp.type.enum"] = { link = "Type" },
+			["@lsp.type.enumMember"] = { link = "Constant" },
+			["@lsp.type.event"] = { link = "Type" },
+			["@lsp.type.function"] = { link = "Function" },
+			["@lsp.type.interface"] = { link = "Type" },
+			["@lsp.type.keyword"] = { link = "Keyword" },
+			["@lsp.type.macro"] = { link = "Macro" },
+			["@lsp.type.method"] = { link = "Function" },
+			["@lsp.type.modifier"] = { link = "Type" },
+			["@lsp.type.namespace"] = { link = "Structure" },
+			["@lsp.type.number"] = { link = "Number" },
+			["@lsp.type.operator"] = { link = "Operator" },
+			["@lsp.type.parameter"] = { fg = c.base_15, italic = true },
+			["@lsp.type.property"] = { link = "Keyword" },
+			["@lsp.type.regexp"] = { link = "SpecialChar" },
+			["@lsp.type.string"] = { link = "String" },
+			["@lsp.type.struct"] = { link = "Type" },
+			["@lsp.type.typeParameter"] = { link = "Type" },
+			["@lsp.type.variable"] = { link = "Keyword" },
+
+			["@lsp.mod.abstract"] = { link = "Type" },
+			["@lsp.mod.async"] = { link = "Function" },
+			["@lsp.mod.declaration"] = {},
+			["@lsp.mod.defaultLibrary"] = { link = "Special" },
+			["@lsp.mod.definition"] = {},
+			["@lsp.mod.documentation"] = { link = "Comment" },
+			["@lsp.mod.readonly"] = { link = "Constant" },
+			["@lsp.mod.static"] = { link = "Constant" },
+		})
+	end
 
 	return groups
 end

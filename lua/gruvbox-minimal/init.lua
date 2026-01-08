@@ -8,30 +8,32 @@
 --- @field contrast? GruvboxContrast
 --- @field theme? GruvboxTheme
 --- @field accent? GruvboxAccent
+--- @field semantic_highlights? boolean
 
 local M = {}
 
 --- @type GruvboxConfig
 M.config = {
-    transparent = false,
-    italic_comments = false,
-    contrast = "low",
-    theme = "dark",
-    accent = "red",
+	transparent = false,
+	italic_comments = false,
+	contrast = "low",
+	theme = "dark",
+	accent = "red",
+	semantic_highlights = true,
 }
 
 --- @param opts? GruvboxConfig
 function M.setup(opts)
-    M.config = vim.tbl_deep_extend("force", M.config, opts or {})
+	M.config = vim.tbl_deep_extend("force", M.config, opts or {})
 end
 
 function M.load()
-    local palette = require("gruvbox-minimal.palette").get(M.config.contrast, M.config.theme)
-    local groups = require("gruvbox-minimal.groups").setup(palette, M.config)
+	local palette = require("gruvbox-minimal.palette").get(M.config.contrast, M.config.theme)
+	local groups = require("gruvbox-minimal.groups").setup(palette, M.config)
 
-    for group, settings in pairs(groups) do
-        vim.api.nvim_set_hl(0, group, settings)
-    end
+	for group, settings in pairs(groups) do
+		vim.api.nvim_set_hl(0, group, settings)
+	end
 end
 
 return M
