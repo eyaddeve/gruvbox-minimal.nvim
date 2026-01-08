@@ -1,3 +1,9 @@
+## [unreleased]
+
+### 🚀 Features
+
+- *(groups)* Add custom TS colors for todo.txt files
+- *(groups)* Use accent color instead of red with todo.txt context tags
 ## [0.3.1] - 2026-01-01
 
 ### 🚜 Refactor
