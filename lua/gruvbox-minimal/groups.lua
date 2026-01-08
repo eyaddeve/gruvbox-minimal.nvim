@@ -141,7 +141,7 @@ function M.setup(c, config)
 		["@comment.note"] = { bg = c.blue, fg = c.bg_blue },
 
 		--- todo.txt TS
-		["@type.todotxt"] = { fg = c.red },
+		["@type.todotxt"] = { fg = c[config.accent] },
 		["@string.todotxt"] = { fg = c.cyan },
 		["@comment.todotxt"] = { fg = c.base_10 },
 
