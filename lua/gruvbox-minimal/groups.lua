@@ -140,6 +140,11 @@ function M.setup(c, config)
 		["@comment.todo"] = { bg = c.green, fg = c.bg_green },
 		["@comment.note"] = { bg = c.blue, fg = c.bg_blue },
 
+		--- todo.txt TS
+		["@type.todotxt"] = { fg = c.red },
+		["@string.todotxt"] = { fg = c.cyan },
+		["@comment.todotxt"] = { fg = c.base_10 },
+
 		-- Diagnostics
 		DiagnosticError = { fg = c.red },
 		DiagnosticWarn = { fg = c.orange },
